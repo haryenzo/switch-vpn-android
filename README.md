@@ -1,5 +1,7 @@
 # Switch VPN
 
+[![Download APK](https://img.shields.io/github/v/release/haryenzo/switch-vpn-android?label=Download%20APK&style=for-the-badge)](https://github.com/haryenzo/switch-vpn-android/releases/latest/download/switch-vpn.apk)
+
 An Android automation app in the spirit of iOS Shortcuts' VPN automations: pick an app,
 create a rule like "opens → connect", and Switch VPN drives an already-installed VPN client
 (Happ, Incy, v2RayTun) for you. It is **not a VPN itself** — it never creates a VPN connection
