@@ -24,7 +24,7 @@ This is not published on the Google Play Store — it's distributed as a direct 
 ("sideloading"), so Android will warn you it's from an unknown source. That's expected for a
 small independent project; only install it if you trust the source you got it from.
 
-1. Download the APK.
+1. Download the APK from the [latest release](https://github.com/haryenzo/switch-vpn-android/releases/latest) (open it on your phone and tap the `.apk` file under Assets).
 2. Open it on your phone. If Android blocks the install, go to **Settings → Apps → Special
    access → Install unknown apps**, find the app you downloaded it with (e.g. your browser or
    Telegram), and allow it to install apps.
