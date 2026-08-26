@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Switch VPN</string>
+
+    <string name="tab_automation">Automatisation</string>
+    <string name="tab_permissions">Autorisations</string>
+
+    <string name="rules_empty">Aucune règle pour l\'instant. Appuyez sur + pour en ajouter une.</string>
+    <string name="add_rule_cd">Ajouter une règle</string>
+    <string name="delete_cd">Supprimer</string>
+    <string name="settings_cd">Paramètres</string>
+
+    <string name="rule_opens">s\'ouvre → %1$s : %2$s</string>
+    <string name="rule_closes">se ferme → %1$s : %2$s</string>
+    <string name="action_connect">connecter</string>
+    <string name="action_disconnect">déconnecter</string>
+    <string name="action_toggle">basculer</string>
+    <string name="action_connect_title">Connecter</string>
+    <string name="action_disconnect_title">Déconnecter</string>
+    <string name="action_toggle_title">Basculer</string>
+
+    <string name="permissions_title">Autorisations</string>
+    <string name="perm_usage_title">Accès à l\'utilisation</string>
+    <string name="perm_usage_desc">Nécessaire pour détecter quelle application est actuellement ouverte</string>
+    <string name="perm_battery_title">Exemption d\'optimisation de la batterie</string>
+    <string name="perm_battery_desc">Sans cela, le système peut arrêter la surveillance en arrière-plan</string>
+    <string name="perm_overlay_title">Affichage par-dessus les autres applications</string>
+    <string name="perm_overlay_desc">Sans cela, Android empêche Happ/Incy de se lancer depuis le service en arrière-plan — l\'automatisation ne fonctionnera pas du tout sans cette autorisation</string>
+    <string name="perm_grant">Autoriser</string>
+
+    <string name="footer_donate">Faire un don</string>
+    <string name="footer_help">Support</string>
+    <string name="footer_app_rules">Règles de l\'application</string>
+    <string name="footer_privacy_policy">Politique de confidentialité</string>
+    <string name="footer_support_project">Si vous souhaitez soutenir le projet</string>
+    <string name="footer_coming_soon">Bientôt disponible</string>
+    <string name="footer_version">0.0.1</string>
+    <string name="dialog_ok">Compris</string>
+    <string name="external_link_warning_title">Quitter l\'application</string>
+    <string name="external_link_warning_body">Vous allez ouvrir un lien externe dans votre navigateur ou Telegram. Continuer ?</string>
+    <string name="external_link_continue">Continuer</string>
+    <string name="settings_buy_vpn_hint">Si vous souhaitez soutenir le projet, vous pouvez souscrire un abonnement VPN.</string>
+    <string name="settings_buy_vpn_button">Acheter le VPN pour 59 ₽</string>
+    <string name="legal_app_rules_body">Switch VPN est une application d\'automatisation indépendante. Ce n\'est pas un service VPN et elle ne crée pas sa propre connexion VPN — elle envoie uniquement des commandes de connexion/déconnexion aux applications VPN déjà installées sur votre téléphone (Happ, Incy, v2RayTun), selon les règles que vous configurez. Pour que l\'automatisation fonctionne, l\'application VPN choisie doit déjà être installée et configurée par vous-même. L\'application est en version bêta, des bugs sont possibles.\n\nAssistance : t.me/aeris_support</string>
+    <string name="legal_privacy_policy_body">Switch VPN ne collecte, ne stocke ni ne transmet aucune donnée. L\'application ne demande pas l\'accès à Internet et ne peut physiquement rien envoyer à un serveur — tous les paramètres et règles d\'automatisation sont stockés uniquement en local sur votre téléphone. L\'accès aux données d\'utilisation sert uniquement, sur l\'appareil, à détecter quelle application est actuellement ouverte, et n\'est jamais transmis.\n\nAssistance : t.me/aeris_support</string>
+
+    <string name="back">Retour</string>
+    <string name="new_rule_title">Nouvelle règle</string>
+    <string name="edit_rule_title">Modifier la règle</string>
+    <string name="section_watched_app">Application surveillée</string>
+    <string name="pick_app">Choisir une application</string>
+    <string name="section_vpn_app">Application VPN</string>
+    <string name="info_watched_app">L\'application surveillée par l\'automatisation — l\'action choisie se déclenche à son ouverture ou sa fermeture.</string>
+    <string name="info_vpn_app">Le client VPN contrôlé par cette règle. Il doit être installé sur le téléphone.</string>
+    <string name="add_custom_vpn">Ajouter votre propre application VPN</string>
+    <string name="conflict_warning">Une règle pour cette application pointe déjà vers %1$s. Android ne garde qu\'un seul VPN actif à la fois — les deux clients se couperaient mutuellement. Ne conservez qu\'une seule règle par application.</string>
+    <string name="section_triggers">Déclencheurs</string>
+    <string name="info_triggers">Déterminent ce qui se passe à l\'ouverture et à la fermeture de l\'application surveillée : connecter, déconnecter ou basculer le VPN.</string>
+    <string name="trigger_open">L\'application s\'ouvre</string>
+    <string name="trigger_close">L\'application se ferme</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Enregistrer</string>
+
+    <string name="pick_app_title">Choisir une application</string>
+    <string name="search_apps">Rechercher des applications</string>
+
+    <string name="custom_vpn_title">Votre propre application VPN</string>
+    <string name="section_app">Application</string>
+    <string name="section_scheme">Schéma de lien profond (facultatif)</string>
+    <string name="scheme_hint">par ex. myvpn</string>
+    <string name="scheme_note">La règle ouvrira %1$s://&lt;action&gt; — vérifiez le chemin exact dans la documentation de l\'application.</string>
+    <string name="broadcast_toggle_show">Ou broadcast au lieu d\'un lien profond (avancé)</string>
+    <string name="broadcast_toggle_hide">Masquer les paramètres broadcast</string>
+    <string name="section_broadcast">Actions broadcast (facultatif)</string>
+    <string name="broadcast_connect_label">Action de connexion</string>
+    <string name="broadcast_disconnect_label">Action de déconnexion</string>
+    <string name="broadcast_toggle_label">Action de bascule</string>
+    <string name="broadcast_note">À remplir si l\'application accepte des commandes via un récepteur broadcast explicite — plus fiable qu\'un lien profond et n\'ouvre pas la fenêtre de l\'application.</string>
+    <string name="custom_vpn_footer_note">Trouvez le schéma exact, les chemins ou l\'action broadcast dans la documentation de l\'application VPN elle-même ou en inspectant son APK — cela ne se devine pas.</string>
+
+    <string name="choose_language_title">Choisissez votre langue</string>
+    <string name="choose_language_confirm">Continuer</string>
+    <string name="settings_language">Langue</string>
+    <string name="info_language">Change la langue de l\'interface de l\'application.</string>
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_theme">Thème</string>
+    <string name="info_theme">Choisissez une apparence claire, sombre ou basée sur le système.</string>
+    <string name="theme_system">Système</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="notification_title">Automatisation VPN active</string>
+    <string name="notification_text">Surveillance des changements d\'application</string>
+</resources>

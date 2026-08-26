@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Switch VPN</string>
+
+    <string name="tab_automation">Автоматизация</string>
+    <string name="tab_permissions">Разрешения</string>
+
+    <string name="rules_empty">Правил пока нет. Нажмите +, чтобы добавить.</string>
+    <string name="add_rule_cd">Добавить правило</string>
+    <string name="delete_cd">Удалить</string>
+    <string name="settings_cd">Настройки</string>
+
+    <string name="rule_opens">открывается → %1$s: %2$s</string>
+    <string name="rule_closes">закрывается → %1$s: %2$s</string>
+    <string name="action_connect">включить</string>
+    <string name="action_disconnect">выключить</string>
+    <string name="action_toggle">переключить</string>
+    <string name="action_connect_title">Включить</string>
+    <string name="action_disconnect_title">Выключить</string>
+    <string name="action_toggle_title">Переключить</string>
+
+    <string name="permissions_title">Разрешения</string>
+    <string name="perm_usage_title">Доступ к использованию данных</string>
+    <string name="perm_usage_desc">Нужен, чтобы отслеживать, какое приложение сейчас открыто</string>
+    <string name="perm_battery_title">Исключение из оптимизации батареи</string>
+    <string name="perm_battery_desc">Без этого система может остановить фоновое отслеживание</string>
+    <string name="perm_overlay_title">Отображение поверх других приложений</string>
+    <string name="perm_overlay_desc">Без этого Android блокирует запуск Happ/Incy из фонового сервиса — без этого разрешения автоматизация не сработает вообще</string>
+    <string name="perm_grant">Дать</string>
+
+    <string name="footer_donate">Пожертвования</string>
+    <string name="footer_help">Поддержка</string>
+    <string name="footer_app_rules">Правила приложения</string>
+    <string name="footer_privacy_policy">Правила конфиденциальности</string>
+    <string name="footer_support_project">Если хотите поддержать проект</string>
+    <string name="footer_coming_soon">Скоро</string>
+    <string name="footer_version">0.0.1</string>
+    <string name="dialog_ok">Понятно</string>
+    <string name="external_link_warning_title">Переход на внешний ресурс</string>
+    <string name="external_link_warning_body">Вы покидаете приложение и переходите по внешней ссылке в браузере или Telegram. Продолжить?</string>
+    <string name="external_link_continue">Продолжить</string>
+    <string name="settings_buy_vpn_hint">Если хотите поддержать проект — оформите подписку на VPN.</string>
+    <string name="settings_buy_vpn_button">Купить VPN за 59 ₽</string>
+    <string name="legal_app_rules_body">Switch VPN — независимое приложение-автоматизация. Оно не является VPN-сервисом и не создаёт собственное VPN-соединение: оно лишь отправляет команды включения/выключения уже установленным на вашем телефоне VPN-приложениям (Happ, Incy, v2RayTun) согласно настроенным вами правилам. Для работы автоматизации выбранное VPN-приложение должно быть заранее установлено и настроено вами самостоятельно. Приложение находится в бета-версии, возможны ошибки.\n\nПоддержка: t.me/aeris_support</string>
+    <string name="legal_privacy_policy_body">Switch VPN не собирает, не хранит и не передаёт никакие данные. Приложение не запрашивает доступ в интернет и физически не может отправить что-либо на сервер — все настройки и правила автоматизации хранятся только локально на вашем телефоне. Доступ к данным об использовании приложений (Usage Access) применяется только на устройстве, чтобы определить, какое приложение сейчас открыто, и никуда не передаётся.\n\nПоддержка: t.me/aeris_support</string>
+
+    <string name="back">Назад</string>
+    <string name="new_rule_title">Новое правило</string>
+    <string name="edit_rule_title">Изменить правило</string>
+    <string name="section_watched_app">Отслеживаемое приложение</string>
+    <string name="pick_app">Выбрать приложение</string>
+    <string name="section_vpn_app">VPN-приложение</string>
+    <string name="info_watched_app">Приложение, за которым будет следить автоматизация — при его открытии или закрытии сработает выбранное действие.</string>
+    <string name="info_vpn_app">VPN-клиент, которым будет управлять это правило. Приложение должно быть установлено на телефоне.</string>
+    <string name="add_custom_vpn">Добавить своё VPN-приложение</string>
+    <string name="conflict_warning">Для этого же приложения уже есть правило на %1$s. Android держит активным только один VPN сразу — оба клиента будут выбивать друг друга. Оставьте только одно правило на приложение.</string>
+    <string name="section_triggers">Триггеры</string>
+    <string name="info_triggers">Определяют, что делать при открытии и закрытии отслеживаемого приложения: включить, выключить или переключить VPN.</string>
+    <string name="trigger_open">Приложение открывается</string>
+    <string name="trigger_close">Приложение закрывается</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+
+    <string name="pick_app_title">Выберите приложение</string>
+    <string name="search_apps">Поиск приложений</string>
+
+    <string name="custom_vpn_title">Своё VPN-приложение</string>
+    <string name="section_app">Приложение</string>
+    <string name="section_scheme">Deep-link схема (необязательно)</string>
+    <string name="scheme_hint">например myvpn</string>
+    <string name="scheme_note">Правило откроет %1$s://&lt;действие&gt; — проверьте точный путь в документации приложения.</string>
+    <string name="broadcast_toggle_show">Или broadcast вместо deep-link (для продвинутых)</string>
+    <string name="broadcast_toggle_hide">Скрыть broadcast-настройки</string>
+    <string name="section_broadcast">Broadcast actions (необязательно)</string>
+    <string name="broadcast_connect_label">Action для включения</string>
+    <string name="broadcast_disconnect_label">Action для выключения</string>
+    <string name="broadcast_toggle_label">Action для переключения</string>
+    <string name="broadcast_note">Заполните, если приложение принимает команды через явный broadcast-приёмник — это надёжнее deep-link\'а и не открывает окно приложения.</string>
+    <string name="custom_vpn_footer_note">Точные значения схемы, путей или broadcast-action можно найти в документации самого VPN-приложения или разбором его APK — угадать их нельзя.</string>
+
+    <string name="choose_language_title">Выберите язык</string>
+    <string name="choose_language_confirm">Продолжить</string>
+    <string name="settings_language">Язык</string>
+    <string name="info_language">Меняет язык интерфейса приложения.</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_theme">Тема</string>
+    <string name="info_theme">Выбирает светлое, тёмное или системное оформление приложения.</string>
+    <string name="theme_system">Системная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="notification_title">Автоматизация VPN активна</string>
+    <string name="notification_text">Отслеживаются переключения приложений</string>
+</resources>

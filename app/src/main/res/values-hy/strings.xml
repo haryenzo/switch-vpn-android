@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Switch VPN</string>
+
+    <string name="tab_automation">Ավտոմատացում</string>
+    <string name="tab_permissions">Թույլտվություններ</string>
+
+    <string name="rules_empty">Կանոններ դեռ չկան: Սեղմեք +՝ ավելացնելու համար:</string>
+    <string name="add_rule_cd">Ավելացնել կանոն</string>
+    <string name="delete_cd">Ջնջել</string>
+    <string name="settings_cd">Կարգավորումներ</string>
+
+    <string name="rule_opens">բացվում է → %1$s. %2$s</string>
+    <string name="rule_closes">փակվում է → %1$s. %2$s</string>
+    <string name="action_connect">միացնել</string>
+    <string name="action_disconnect">անջատել</string>
+    <string name="action_toggle">փոխարկել</string>
+    <string name="action_connect_title">Միացնել</string>
+    <string name="action_disconnect_title">Անջատել</string>
+    <string name="action_toggle_title">Փոխարկել</string>
+
+    <string name="permissions_title">Թույլտվություններ</string>
+    <string name="perm_usage_title">Օգտագործման տվյալների հասանելիություն</string>
+    <string name="perm_usage_desc">Անհրաժեշտ է՝ հասկանալու, թե որ հավելվածն է հիմա բաց</string>
+    <string name="perm_battery_title">Մարտկոցի օպտիմալացումից բացառում</string>
+    <string name="perm_battery_desc">Առանց դրա համակարգը կարող է կանգնեցնել ֆոնային հետևումը</string>
+    <string name="perm_overlay_title">Ցուցադրում այլ հավելվածների վրայից</string>
+    <string name="perm_overlay_desc">Առանց դրա Android-ը արգելափակում է Happ/Incy-ի գործարկումը ֆոնային ծառայությունից — առանց այս թույլտվության ավտոմատացումն ընդհանրապես չի աշխատի</string>
+    <string name="perm_grant">Թույլատրել</string>
+
+    <string name="footer_donate">Նվիրատվություն</string>
+    <string name="footer_help">Աջակցություն</string>
+    <string name="footer_app_rules">Հավելվածի կանոններ</string>
+    <string name="footer_privacy_policy">Գաղտնիության քաղաքականություն</string>
+    <string name="footer_support_project">Եթե ցանկանում եք աջակցել նախագծին</string>
+    <string name="footer_coming_soon">Շուտով</string>
+    <string name="footer_version">0.0.1</string>
+    <string name="dialog_ok">Հասկանալի է</string>
+    <string name="external_link_warning_title">Հեռանում եք հավելվածից</string>
+    <string name="external_link_warning_body">Դուք բացելու եք արտաքին հղում դիտարկիչում կամ Telegram-ում: Շարունակե՞լ:</string>
+    <string name="external_link_continue">Շարունակել</string>
+    <string name="settings_buy_vpn_hint">Եթե ցանկանում եք աջակցել նախագծին, կարող եք ձեռք բերել VPN բաժանորդագրություն:</string>
+    <string name="settings_buy_vpn_button">Գնել VPN 59 ₽-ով</string>
+    <string name="legal_app_rules_body">Switch VPN-ն անկախ ավտոմատացման հավելված է: Այն VPN ծառայություն չէ և չի ստեղծում սեփական VPN կապ — այն միայն ուղարկում է միացման/անջատման հրամաններ ձեր հեռախոսում արդեն տեղադրված VPN հավելվածներին (Happ, Incy, v2RayTun)՝ ըստ ձեր կարգավորած կանոնների: Ավտոմատացումն աշխատելու համար ընտրված VPN հավելվածը պետք է արդեն տեղադրված և կարգավորված լինի ձեր կողմից: Հավելվածը բետա փուլում է, հնարավոր են սխալներ:\n\nԱջակցություն՝ t.me/aeris_support</string>
+    <string name="legal_privacy_policy_body">Switch VPN-ն չի հավաքագրում, չի պահպանում և չի փոխանցում որևէ տվյալ: Հավելվածը չի պահանջում ինտերնետ հասանելիություն և ֆիզիկապես չի կարող որևէ բան ուղարկել սերվեր — բոլոր կարգավորումները և ավտոմատացման կանոնները պահվում են միայն տեղում՝ ձեր հեռախոսում: Օգտագործման տվյալների հասանելիությունը կիրառվում է միայն սարքի վրա՝ որոշելու, թե որ հավելվածն է հիմա բաց, և երբեք ոչ մի տեղ չի փոխանցվում:\n\nԱջակցություն՝ t.me/aeris_support</string>
+
+    <string name="back">Հետ</string>
+    <string name="new_rule_title">Նոր կանոն</string>
+    <string name="edit_rule_title">Խմբագրել կանոնը</string>
+    <string name="section_watched_app">Հետևվող հավելված</string>
+    <string name="pick_app">Ընտրել հավելված</string>
+    <string name="section_vpn_app">VPN հավելված</string>
+    <string name="info_watched_app">Հավելվածը, որին կհետևի ավտոմատացումը — բացվելիս կամ փակվելիս կկատարվի ընտրված գործողությունը:</string>
+    <string name="info_vpn_app">VPN հաճախորդը, որը կառավարվում է այս կանոնով: Այն պետք է տեղադրված լինի հեռախոսում:</string>
+    <string name="add_custom_vpn">Ավելացնել սեփական VPN հավելված</string>
+    <string name="conflict_warning">Այս հավելվածի համար արդեն կա կանոն, որն ուղղված է %1$s-ին: Android-ը միաժամանակ ակտիվ է պահում միայն մեկ VPN — երկու հաճախորդներն էլ կխանգարեն միմյանց: Թողեք միայն մեկ կանոն մեկ հավելվածի համար:</string>
+    <string name="section_triggers">Ձգանումներ</string>
+    <string name="info_triggers">Որոշում են, թե ինչ անել հետևվող հավելվածի բացվելիս և փակվելիս՝ միացնել, անջատել կամ փոխարկել VPN-ը:</string>
+    <string name="trigger_open">Հավելվածը բացվում է</string>
+    <string name="trigger_close">Հավելվածը փակվում է</string>
+    <string name="cancel">Չեղարկել</string>
+    <string name="save">Պահպանել</string>
+
+    <string name="pick_app_title">Ընտրեք հավելված</string>
+    <string name="search_apps">Փնտրել հավելվածներ</string>
+
+    <string name="custom_vpn_title">Սեփական VPN հավելված</string>
+    <string name="section_app">Հավելված</string>
+    <string name="section_scheme">Deep-link սխեմա (ընտրովի)</string>
+    <string name="scheme_hint">օրինակ՝ myvpn</string>
+    <string name="scheme_note">Կանոնը կբացի %1$s://&lt;գործողություն&gt; — ստուգեք ճշգրիտ ուղին հավելվածի փաստաթղթերում:</string>
+    <string name="broadcast_toggle_show">Կամ broadcast deep-link-ի փոխարեն (առաջադեմ)</string>
+    <string name="broadcast_toggle_hide">Թաքցնել broadcast կարգավորումները</string>
+    <string name="section_broadcast">Broadcast գործողություններ (ընտրովի)</string>
+    <string name="broadcast_connect_label">Միացման action</string>
+    <string name="broadcast_disconnect_label">Անջատման action</string>
+    <string name="broadcast_toggle_label">Փոխարկման action</string>
+    <string name="broadcast_note">Լրացրեք, եթե հավելվածն ընդունում է հրամաններ բացահայտ broadcast ընդունիչի միջոցով — դա ավելի հուսալի է, քան deep-link-ը, և չի բացում հավելվածի պատուհանը:</string>
+    <string name="custom_vpn_footer_note">Ճշգրիտ սխեման, ուղիները կամ broadcast action-ը գտեք հենց VPN հավելվածի փաստաթղթերում կամ նրա APK-ն վերլուծելով — դրանք գուշակել հնարավոր չէ:</string>
+
+    <string name="choose_language_title">Ընտրեք լեզուն</string>
+    <string name="choose_language_confirm">Շարունակել</string>
+    <string name="settings_language">Լեզու</string>
+    <string name="info_language">Փոխում է հավելվածի ինտերֆեյսի լեզուն:</string>
+    <string name="settings_title">Կարգավորումներ</string>
+    <string name="settings_theme">Թեմա</string>
+    <string name="info_theme">Ընտրեք բաց, մուգ կամ համակարգային տեսք:</string>
+    <string name="theme_system">Համակարգային</string>
+    <string name="theme_light">Բաց</string>
+    <string name="theme_dark">Մուգ</string>
+    <string name="notification_title">VPN ավտոմատացումը ակտիվ է</string>
+    <string name="notification_text">Հետևվում են հավելվածների փոխարկումները</string>
+</resources>

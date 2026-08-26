@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Switch VPN</string>
+
+    <string name="tab_automation">Automation</string>
+    <string name="tab_permissions">Permissions</string>
+
+    <string name="rules_empty">No rules yet. Tap + to add one.</string>
+    <string name="add_rule_cd">Add rule</string>
+    <string name="delete_cd">Delete</string>
+    <string name="settings_cd">Settings</string>
+
+    <string name="rule_opens">opens → %1$s: %2$s</string>
+    <string name="rule_closes">closes → %1$s: %2$s</string>
+    <string name="action_connect">connect</string>
+    <string name="action_disconnect">disconnect</string>
+    <string name="action_toggle">toggle</string>
+    <string name="action_connect_title">Connect</string>
+    <string name="action_disconnect_title">Disconnect</string>
+    <string name="action_toggle_title">Toggle</string>
+
+    <string name="permissions_title">Permissions</string>
+    <string name="perm_usage_title">Usage access</string>
+    <string name="perm_usage_desc">Needed to detect which app is currently open</string>
+    <string name="perm_battery_title">Battery optimization exemption</string>
+    <string name="perm_battery_desc">Without it the system may stop background monitoring</string>
+    <string name="perm_overlay_title">Display over other apps</string>
+    <string name="perm_overlay_desc">Without it Android blocks Happ/Incy from launching from the background service — automation won\'t work at all without this permission</string>
+    <string name="perm_grant">Grant</string>
+
+    <string name="footer_donate">Donate</string>
+    <string name="footer_help">Support</string>
+    <string name="footer_app_rules">App rules</string>
+    <string name="footer_privacy_policy">Privacy policy</string>
+    <string name="footer_support_project">If you\'d like to support the project</string>
+    <string name="footer_coming_soon">Coming soon</string>
+    <string name="footer_version">0.0.1</string>
+    <string name="dialog_ok">Got it</string>
+    <string name="external_link_warning_title">Leaving the app</string>
+    <string name="external_link_warning_body">You\'re about to open an external link in your browser or Telegram. Continue?</string>
+    <string name="external_link_continue">Continue</string>
+    <string name="settings_buy_vpn_hint">If you\'d like to support the project, you can get a VPN subscription.</string>
+    <string name="settings_buy_vpn_button">Buy VPN for 59 ₽</string>
+    <string name="legal_app_rules_body">Switch VPN is an independent automation app. It is not a VPN service itself and doesn\'t create its own VPN connection — it only sends connect/disconnect commands to VPN apps already installed on your phone (Happ, Incy, v2RayTun) based on the rules you configure. For automation to work, the chosen VPN app must already be installed and set up by you. The app is in beta, so bugs are possible.\n\nSupport: t.me/aeris_support</string>
+    <string name="legal_privacy_policy_body">Switch VPN doesn\'t collect, store, or transmit any data. The app doesn\'t request internet access and physically cannot send anything to a server — all settings and automation rules are stored only locally on your phone. Usage access is used only on-device to detect which app is currently open, and is never sent anywhere.\n\nSupport: t.me/aeris_support</string>
+
+    <string name="back">Back</string>
+    <string name="new_rule_title">New rule</string>
+    <string name="edit_rule_title">Edit rule</string>
+    <string name="section_watched_app">Watched app</string>
+    <string name="pick_app">Choose app</string>
+    <string name="section_vpn_app">VPN app</string>
+    <string name="info_watched_app">The app automation watches — the chosen action fires when it opens or closes.</string>
+    <string name="info_vpn_app">The VPN client this rule controls. It must be installed on the phone.</string>
+    <string name="add_custom_vpn">Add your own VPN app</string>
+    <string name="conflict_warning">There\'s already a rule for this app pointing at %1$s. Android only keeps one VPN active at a time — both clients would keep kicking each other off. Keep only one rule per app.</string>
+    <string name="section_triggers">Triggers</string>
+    <string name="info_triggers">Decide what happens when the watched app opens and closes: connect, disconnect, or toggle the VPN.</string>
+    <string name="trigger_open">App opens</string>
+    <string name="trigger_close">App closes</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <string name="pick_app_title">Choose an app</string>
+    <string name="search_apps">Search apps</string>
+
+    <string name="custom_vpn_title">Your own VPN app</string>
+    <string name="section_app">App</string>
+    <string name="section_scheme">Deep-link scheme (optional)</string>
+    <string name="scheme_hint">e.g. myvpn</string>
+    <string name="scheme_note">The rule will open %1$s://&lt;action&gt; — check the exact path in the app\'s documentation.</string>
+    <string name="broadcast_toggle_show">Or broadcast instead of deep-link (advanced)</string>
+    <string name="broadcast_toggle_hide">Hide broadcast settings</string>
+    <string name="section_broadcast">Broadcast actions (optional)</string>
+    <string name="broadcast_connect_label">Connect action</string>
+    <string name="broadcast_disconnect_label">Disconnect action</string>
+    <string name="broadcast_toggle_label">Toggle action</string>
+    <string name="broadcast_note">Fill this in if the app accepts commands via an explicit broadcast receiver — more reliable than a deep link and doesn\'t open the app\'s window.</string>
+    <string name="custom_vpn_footer_note">Find the exact scheme, paths, or broadcast action in the VPN app\'s own documentation or by inspecting its APK — they can\'t be guessed.</string>
+
+    <string name="choose_language_title">Choose your language</string>
+    <string name="choose_language_confirm">Continue</string>
+    <string name="settings_language">Language</string>
+    <string name="info_language">Changes the app\'s interface language.</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="info_theme">Choose a light, dark, or system-matched appearance.</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="notification_title">VPN automation active</string>
+    <string name="notification_text">Watching for app switches</string>
+</resources>
